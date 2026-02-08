@@ -1,5 +1,5 @@
 FROM nginx:alpine
-LABEL maintainer="Pavan"
+LABEL maintainer="Pavan Kumar"
 
 
 # Copy HTML files to nginx document root
