@@ -1,5 +1,6 @@
 FROM nginx:alpine
 LABEL maintainer="Pavan"
+
 # Copy HTML files to nginx document root
 COPY index.html /usr/share/nginx/html/
 COPY about.html /usr/share/nginx/html/
